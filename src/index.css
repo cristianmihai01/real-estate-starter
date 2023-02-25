@@ -10,7 +10,7 @@
     @apply w-full lg:max-w-[296px] cursor-pointer;
   }
   .dropdown-btn {
-    @apply flex h-[64px] items-center px-[18px] border rounded-lg;
+    @apply flex h-[64px] items-center px-[18px] border rounded-lg border-gray-300;
   }
   .dropdown-icon-primary {
     @apply text-2xl mr-[18px] text-violet-700;
