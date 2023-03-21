@@ -434,3 +434,4 @@ export const housesData = [
     },
   },
 ];
+
