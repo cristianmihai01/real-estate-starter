@@ -3,6 +3,18 @@
 @tailwind utilities;
 
 @layer base {
+
+
+  input[type="text"],input[type="password"],input[type="email"] {
+    @apply w-full border my-2 py-3 px-3 rounded-2xl;
+  }
+  button {
+    @apply bg-gray-300 w-full
+  }
+  button.primary{
+    background-color: red;
+    @apply bg-primary p-2 w-full text-white rounded-2xl;
+  }
   body {
     @apply font-primary bg-gray-200;
   }
@@ -13,12 +25,14 @@
     @apply flex h-[64px] items-center px-[18px] border rounded-lg;
   }
   .dropdown-icon-primary {
-    @apply text-2xl mr-[18px] text-violet-700;
+    @apply text-2xl mr-[18px] text-amber-700;
   }
   .dropdown-icon-secondary {
-    @apply text-2xl text-violet-700 ml-auto;
+    @apply text-2xl text-amber-700 ml-auto;
   }
   .dropdown-menu {
     @apply px-6 py-8 text-[15px] space-y-6 shadow-md bg-white absolute w-full z-10 list-none rounded-b-lg;
   }
 }
+
+

@@ -43,7 +43,7 @@ const CountryDropdown = () => {
         return (
         <Menu.Item 
             onClick={()=> setCountry(country)}
-            className='cursor-pointer hover:text-violet-700 transistion'
+            className='cursor-pointer hover:text-amber-700 transistion'
               as='li'
               key={index}>
             {country}
