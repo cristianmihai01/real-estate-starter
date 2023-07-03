@@ -1,7 +1,6 @@
 import React from 'react';
 
-const HouseContext = () => {
+export const HouseContext = () => {
   return <div>HouseContext</div>;
 };
 
-export default HouseContext;
