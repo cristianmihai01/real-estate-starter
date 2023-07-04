@@ -1,7 +1,5 @@
 import React from 'react';
 
-const PriceRangeDropdown = () => {
+export const PriceRangeDropdown = () => {
   return <div>PriceRangeDropdown</div>;
 };
-
-export default PriceRangeDropdown;
